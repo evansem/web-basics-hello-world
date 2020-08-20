@@ -10,8 +10,8 @@ $(function() {
 
   $("#triviaButton").click(function(){
     /* function for when the button is clicked goes here */
-    alert("Hey ready for a question")
-    //console.log("Hi from the console")
+    alert("Hey ready for a question");
+    fetchRandomTriviaQuestion(displayQuestionAndAnswer);
   }
 
 );

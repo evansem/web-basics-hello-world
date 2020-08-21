@@ -8,6 +8,7 @@ $(function() {
   // console.log will log a message or object to the browser developer console
   console.log("page loaded...");
 
+//here anonymous function is used but it could also be named like displayQuestionAndAnswer
   $("#triviaButton").click(function(){
     /* function for when the button is clicked goes here */
     alert("Hey ready for a question");
